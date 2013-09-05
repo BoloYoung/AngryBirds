@@ -12,7 +12,7 @@
 #import "LoadingScene.h"
 
 @implementation AppDelegate
-
+//uiguyuvuß
 - (void)dealloc
 {
     [_window release];
