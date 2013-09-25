@@ -27,10 +27,10 @@ static ParticleManager *s;
     switch (type) {
         case ParticleTypeSnow:
             {
-                system = [CCParticleSun node];
+                system = [CCParticleFlower node];
                 // 取得雪花效果
                 
-                CCTexture2D *t = [[CCTextureCache sharedTextureCache] addImage:@"ice1.png"];
+                CCTexture2D *t = [[CCTextureCache sharedTextureCache] addImage:@"snow.png"];
                 [system setTexture:t];
                 // 把图片转化为纹理
                 [system setPosition:ccp([[CCDirector sharedDirector] winSize].width/2, [[CCDirector sharedDirector] winSize].height/2 - 30.0f)];

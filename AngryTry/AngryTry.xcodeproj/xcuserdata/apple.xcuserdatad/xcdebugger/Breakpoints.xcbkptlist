@@ -167,7 +167,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "294"
          endingLineNumber = "294"
-         landmarkName = "-dealloc"
+         landmarkName = "-ccTouchMoved:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -180,7 +180,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "112"
          endingLineNumber = "112"
-         landmarkName = "-tick:"
+         landmarkName = "-createWorld"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -219,7 +219,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "111"
          endingLineNumber = "111"
-         landmarkName = "-tick:"
+         landmarkName = "-createWorld"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -232,7 +232,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "113"
          endingLineNumber = "113"
-         landmarkName = "-tick:"
+         landmarkName = "-createWorld"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -245,7 +245,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "145"
          endingLineNumber = "145"
-         landmarkName = "-createLevel"
+         landmarkName = "-tick:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -297,7 +297,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "114"
          endingLineNumber = "114"
-         landmarkName = "-tick:"
+         landmarkName = "-createWorld"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -344,11 +344,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AngryTry/levelScene.mm"
-         timestampString = "396870890.917183"
+         timestampString = "401727548.065653"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "116"
-         endingLineNumber = "116"
+         startingLineNumber = "117"
+         endingLineNumber = "117"
          landmarkName = "-ccTouchesEnded:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -357,11 +357,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "AngryTry/levelScene.mm"
-         timestampString = "396870896.212256"
+         timestampString = "401727548.065653"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "118"
-         endingLineNumber = "118"
+         startingLineNumber = "119"
+         endingLineNumber = "119"
          landmarkName = "-ccTouchesEnded:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -375,8 +375,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "138"
          endingLineNumber = "138"
-         landmarkName = "@implementation GameScene"
-         landmarkType = "3">
+         landmarkName = "-tick:"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -388,7 +388,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "121"
          endingLineNumber = "121"
-         landmarkName = "-tick:"
+         landmarkName = "-createWorld"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -440,7 +440,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "115"
          endingLineNumber = "115"
-         landmarkName = "-tick:"
+         landmarkName = "-createWorld"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint

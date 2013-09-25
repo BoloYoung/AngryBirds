@@ -40,7 +40,6 @@
         CCSprite *beginSprite = [CCSprite spriteWithFile:@"start.png"];
         CCSprite *biggerbeginSprite = [CCSprite spriteWithFile:@"start.png"];
         [biggerbeginSprite setScale:1.03f];
-        //[CCSprite spriteWithFile:@"start@2x.png"];
         [beginSprite setAnchorPoint:ccp(0.5, 0.5)];
         [biggerbeginSprite setAnchorPoint:ccp(0.5, 0.5)];
         
@@ -48,12 +47,8 @@
 //        CCMenuItemSprite *biggerMenuItem = [CCMenuItemSprite itemFromNormalSprite:biggerbeginSprite selectedSprite:nil target:self selector:@selector(beginGame:)];
         // 创建一个菜单项，里面放两个精灵
         // 正常状态和点击状态
-//        [beginMenuItem setAnchorPoint:ccp(0.5, 0.5)];
         CCMenu *menu = [CCMenu menuWithItems:beginMenuItem, nil];
-//        [CCMenu menuWithItems:	, nil]	
-//        [menu setPositionInPixels:];
-//        [menu]				
-//        [menu setAnchorPoint:ccp(0.5, 0.5)];
+
         [menu setPosition:ccp(s.width/2.0f, s.height/2.0f-30.0f)];
         [menu alignItemsHorizontally];
         [self addChild:menu];
@@ -82,7 +77,7 @@
     // trans本来也是一个剧场
     [[CCDirector sharedDirector] replaceScene:trans];
     [trans release];
-//    CCJumpBy
+
 }
 
 @end

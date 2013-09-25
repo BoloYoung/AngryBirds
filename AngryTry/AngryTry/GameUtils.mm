@@ -34,6 +34,7 @@
     // 把level转换成字符串
     NSString *file = [[self class] getLevelFilePath];
     // 取得要存放的文件
+    NSLog(@"%@",file);
     [s writeToFile:file atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 

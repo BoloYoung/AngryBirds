@@ -27,6 +27,7 @@
     self = [super init];
     if (self)
     {
+        [GameUtils writeLevelToFile:2];
         CGSize winSize = [[CCDirector sharedDirector] winSize];
         CCSprite *bgSprite = [CCSprite spriteWithFile:@"selectlevel.png"];
         bgSprite.position = ccp(winSize.width/2, winSize.height/2);
