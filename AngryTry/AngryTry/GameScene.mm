@@ -42,7 +42,7 @@
         NSString *scoreStr = [NSString stringWithFormat:@"Score:"];
         NSString *scoreNum = [NSString stringWithFormat:@"%d",GameScore];
 //        scorelabel = [[CCLabelTTF alloc] initWithString:scoreStr fontName:@"Arial" fontSize:25.0f dimensions:CGSizeMake(300, 300) hAlignment:kCTTextAlignmentCenter];
-        scoreStrlabel = [[CCLabelTTF alloc] initWithString:scoreStr dimensions:CGSizeMake(100, 50) alignment:NSTextAlignmentCenter fontName:@"Arial" fontSize:25.0f];
+        scoreStrlabel = [[CCLabelTTF alloc] initWithString:scoreStr dimensions:CGSizeMake(100, 50) alignment:UITextAlignmentCenter  fontName:@"Arial" fontSize:25.0f];
         scoreNumlabel = [[CCLabelBMFont alloc] initWithString:scoreNum fntFile:@"bitmapFontTest3.fnt"];
         
         [scoreStrlabel setColor:ccc3(255, 240, 0)];

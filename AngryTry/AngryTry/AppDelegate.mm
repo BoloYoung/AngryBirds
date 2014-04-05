@@ -50,11 +50,14 @@
     [rvc setView:glView];
     [self.window setRootViewController:rvc];
     [rvc release];
+    NSLog(@"glview: width = %f , height = %f", rvc.view.frame.size.width, rvc.view.frame.size.height);
     // 把rvc作为window作为根视图
     
     [self.window makeKeyAndVisible];
     // 屏幕要显示第一个剧场
     CCScene *sc = [LoadingScene scene];
+    
+    NSLog(@"Scene: width = %f , height = %f", sc.boundingBox.size.width, sc.boundingBox.size.height);
     [[CCDirector sharedDirector] runWithScene:sc];
     // 让导演运行剧场
     

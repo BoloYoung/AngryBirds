@@ -51,7 +51,7 @@
                 imgPath = @"level.png";
                 NSString *str = [NSString stringWithFormat:@"%d",i+1];
                 NSLog(@"%@",str);
-                CCLabelTTF *numlabel = [CCLabelTTF labelWithString:str dimensions:CGSizeMake(60.0f, 60.0f) alignment:NSTextAlignmentCenter fontName:@"Marker Felt" fontSize:30.0f];
+                CCLabelTTF *numlabel = [CCLabelTTF labelWithString:str dimensions:CGSizeMake(60.0f, 60.0f) alignment:UITextAlignmentCenter fontName:@"Marker Felt" fontSize:30.0f];
                 
                 float x = 60+i%7*60;
                 float y = 320-95-i/7*80;
@@ -99,13 +99,14 @@
     NSLog(@"触摸点转换成世界点：x = %f, y = %f", worldGLPoint.x, worldGLPoint.y);
     CGPoint nodePoint = [self convertToNodeSpace:worldGLPoint];
     NSLog(@"世界点转换成node点：x = %f, y = %f", nodePoint.x, nodePoint.y);
+
     // 把世界坐标转化为node坐标 self
     // self.children.count self 上所有的孩子
     for (int i = 0; i < self.children.count; i++) {
         CCSprite *oneSprite = [self.children objectAtIndex:i];
         // 取得第i个精灵
         if (CGRectContainsPoint(oneSprite.boundingBox, nodePoint) && oneSprite.tag == 100) {
-            // 如果nodePoint包含在oneSprite中
+            // 判断触碰点与精灵的关系，如果nodePoint包含在oneSprite中
             // 并且tag为100
             CCScene *sc = [StartScene scene];
             CCTransitionScene *trans = [[CCTransitionCrossFade alloc] initWithDuration:0.5f scene:sc];
